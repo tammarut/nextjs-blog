@@ -20,7 +20,6 @@ export default function BlogPage({ title, date, content }) {
 }
 
 export async function getStaticProps(context) {
-   console.log("🔥", context);
    const { params } = context;
    return {
       props: blogPosts.find((blog) => blog.slug === params.slug),
