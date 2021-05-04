@@ -6,4 +6,8 @@
    a {
       @apply text-blue-600 hover:text-blue-500;
    }
+
+   body {
+      background-color: #f8f8f8;
+   }
 }

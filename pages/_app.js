@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
    return (
       <div className="mx-auto my-8 w-9/12">
          <header>
-            <h1 className="text-6xl font-bold text-center">📕My Blog</h1>
+            <h1 className="text-6xl font-bold text-center">📕Super Blog</h1>
             <nav className="my-4">
                <ul className="flex flex-row space-x-5 justify-center">
                   <li>
