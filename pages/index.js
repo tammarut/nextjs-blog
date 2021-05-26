@@ -32,7 +32,7 @@ function BlogListItem({ title, slug, date, content }) {
       <div className="text-gray-400 text-sm">
         {format(parseISO(date), "MMMM do, uuu")}
       </div>
-      <div>{content}</div>
+      <div>{content.substring(0, 300)}</div>
     </div>
   );
 }
