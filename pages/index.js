@@ -44,7 +44,7 @@ export async function getStaticProps() {
     props: {
       posts: allPosts.map(({ data, content, slug }) => ({
         title: data.title,
-        date: data.date.toISOString(),
+        date: data.date,
         content: content,
         slug: slug,
       })),
